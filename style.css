@@ -249,11 +249,28 @@
     font-size: 1.1rem;
     margin-bottom: 1rem;
   }
+  .trusted-logos-wrapper {
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 2rem 0;
+  }
   .trusted-logos {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
+    gap: 2rem;
+    animation: scroll-left 40s linear infinite;
+    width: fit-content;
+  }
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  .trusted-logos:hover {
+    animation-play-state: paused;
   }
   .trusted-logos img {
     background: #fff;
@@ -261,8 +278,10 @@
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     padding: 0.5rem 1rem;
     height: 40px;
-    width: 100px;
+    width: auto;
+    min-width: 100px;
     object-fit: contain;
+    flex-shrink: 0;
   }
   font-family: Arial, sans-serif;
   margin: 0;
