@@ -142,13 +142,13 @@
     margin-bottom: 0.5rem;
   }
   .digitalize-card.supply {
-    background: #7c3aed;
+    background: linear-gradient(135deg, #1a2636 60%, #388bff 100%);
   }
   .digitalize-card.provide {
-    background: #ef4444;
+    background: linear-gradient(135deg, #1a2636 60%, #388bff 100%);
   }
   .digitalize-card.support {
-    background: #14b8a6;
+    background: linear-gradient(135deg, #1a2636 60%, #388bff 100%);
   }
   .digitalize-note {
     color: #64748b;
