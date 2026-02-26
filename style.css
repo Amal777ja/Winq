@@ -145,6 +145,7 @@
   .digitalize-card p {
     color: #fff !important;
     font-weight: 600 !important;
+    font-size: 1.1rem !important;
   }
   .digitalize-card.supply {
     background: linear-gradient(135deg, #1a2636 60%, #388bff 100%);
