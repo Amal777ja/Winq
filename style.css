@@ -140,10 +140,11 @@
     font-size: 1.2rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    color: #fff;
+    color: #fff !important;
   }
   .digitalize-card p {
-    color: #fff;
+    color: #fff !important;
+    font-weight: 600 !important;
   }
   .digitalize-card.supply {
     background: linear-gradient(135deg, #1a2636 60%, #388bff 100%);
